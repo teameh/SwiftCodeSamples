@@ -14,6 +14,7 @@
 		44E21E2020C43CC400E2BA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E21E1E20C43CC400E2BA26 /* LaunchScreen.storyboard */; };
 		44E21E2B20C43CC400E2BA26 /* CodeSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E21E2A20C43CC400E2BA26 /* CodeSamplesTests.swift */; };
 		44E21E3620C43CC400E2BA26 /* CodeSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E21E3520C43CC400E2BA26 /* CodeSamplesUITests.swift */; };
+		52E087CE21A43FB80007A592 /* WrappingTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E087CD21A43FB80007A592 /* WrappingTextVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		44E21E3120C43CC400E2BA26 /* CodeSamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E21E3520C43CC400E2BA26 /* CodeSamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSamplesUITests.swift; sourceTree = "<group>"; };
 		44E21E3720C43CC400E2BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E087CD21A43FB80007A592 /* WrappingTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingTextVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				44E21E1720C43CC400E2BA26 /* AnimatingConstraintsVC.swift */,
+				52E087CD21A43FB80007A592 /* WrappingTextVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -205,7 +208,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Tieme van Veen";
+				ORGANIZATIONNAME = "Tieme van Veen (MIT Licence)";
 				TargetAttributes = {
 					44E21E1120C43CC400E2BA26 = {
 						CreatedOnToolsVersion = 9.0;
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E21E1820C43CC400E2BA26 /* AnimatingConstraintsVC.swift in Sources */,
+				52E087CE21A43FB80007A592 /* WrappingTextVC.swift in Sources */,
 				44E21E1620C43CC400E2BA26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

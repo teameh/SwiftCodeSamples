@@ -3,7 +3,7 @@
 //  CodeSamples
 //
 //  Created by Tieme van Veen on 03/06/2018.
-//  Copyright © 2018 Tieme van Veen. MIT Licence
+//  Copyright © 2018 Tieme van Veen (MIT Licence).
 //
 
 import UIKit
