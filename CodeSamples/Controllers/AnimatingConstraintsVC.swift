@@ -26,13 +26,13 @@ class AnimatingConstraintsVC: UIViewController {
     var velocity : CGFloat = 0.5
     var damping : CGFloat = 0.5
 
-    var easings : [String: UIViewAnimationOptions ] = [
-        "EaseIn": UIViewAnimationOptions.curveEaseIn,
-        "EaseOut": UIViewAnimationOptions.curveEaseOut,
-        "EaseInOut": UIViewAnimationOptions.curveEaseInOut,
-        "Linear": UIViewAnimationOptions.curveLinear,
+    var easings : [String: UIView.AnimationOptions ] = [
+        "EaseIn": UIView.AnimationOptions.curveEaseIn,
+        "EaseOut": UIView.AnimationOptions.curveEaseOut,
+        "EaseInOut": UIView.AnimationOptions.curveEaseInOut,
+        "Linear": UIView.AnimationOptions.curveLinear,
     ];
-    var easing : (key: String, value: UIViewAnimationOptions) = ("EaseIn", UIViewAnimationOptions.curveEaseIn)
+    var easing : (key: String, value: UIView.AnimationOptions) = ("EaseIn", UIView.AnimationOptions.curveEaseIn)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -110,7 +110,7 @@ class AnimatingConstraintsVC: UIViewController {
             initialSpringVelocity: velocity,
             // Green always eases linear
             // TODO - THIS IS NOT WORKING... WHY?
-            options: UIViewAnimationOptions.curveLinear,
+            options: UIView.AnimationOptions.curveLinear,
             animations: {
                 self.view.layoutIfNeeded()
             })

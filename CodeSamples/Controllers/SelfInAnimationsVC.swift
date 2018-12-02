@@ -89,7 +89,7 @@ class SelfInAnimationsVC: UIViewController {
       }
     }, completion: { [weak self] finished in
       print("- blue completion")
-      // self won't be retained by the completion block because it is weakly captured
+      // self won't be (temporary) retained by the completion block because it is weakly captured
       // deint is called before the completion block, because nothing retained self any more
       // self will be nil here, so doSomething won't be called
       self?.doSomething()
