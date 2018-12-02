@@ -7,3 +7,6 @@ Some unrelated iOS experiments
 
 ### Animating Constraints
 ![Animating Constraints](readme_images/animating_constraints.gif)
+
+### [weak self] in animations
+![[weak self] in animations](readme_images/animations-self.gif)
