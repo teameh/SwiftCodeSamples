@@ -14,6 +14,7 @@
 		44E21E2020C43CC400E2BA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E21E1E20C43CC400E2BA26 /* LaunchScreen.storyboard */; };
 		44E21E2B20C43CC400E2BA26 /* CodeSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E21E2A20C43CC400E2BA26 /* CodeSamplesTests.swift */; };
 		44E21E3620C43CC400E2BA26 /* CodeSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E21E3520C43CC400E2BA26 /* CodeSamplesUITests.swift */; };
+		524DD03921B452A30006B66A /* SelfInAnimationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DD03821B452A30006B66A /* SelfInAnimationsVC.swift */; };
 		52E087CE21A43FB80007A592 /* WrappingTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E087CD21A43FB80007A592 /* WrappingTextVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		44E21E3120C43CC400E2BA26 /* CodeSamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E21E3520C43CC400E2BA26 /* CodeSamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSamplesUITests.swift; sourceTree = "<group>"; };
 		44E21E3720C43CC400E2BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524DD03821B452A30006B66A /* SelfInAnimationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfInAnimationsVC.swift; sourceTree = "<group>"; };
 		52E087CD21A43FB80007A592 /* WrappingTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingTextVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,7 @@
 			children = (
 				44E21E1720C43CC400E2BA26 /* AnimatingConstraintsVC.swift */,
 				52E087CD21A43FB80007A592 /* WrappingTextVC.swift */,
+				524DD03821B452A30006B66A /* SelfInAnimationsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -207,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Tieme van Veen (MIT Licence)";
 				TargetAttributes = {
 					44E21E1120C43CC400E2BA26 = {
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524DD03921B452A30006B66A /* SelfInAnimationsVC.swift in Sources */,
 				44E21E1820C43CC400E2BA26 /* AnimatingConstraintsVC.swift in Sources */,
 				52E087CE21A43FB80007A592 /* WrappingTextVC.swift in Sources */,
 				44E21E1620C43CC400E2BA26 /* AppDelegate.swift in Sources */,
@@ -349,6 +353,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -356,6 +361,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -406,6 +412,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -413,6 +420,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

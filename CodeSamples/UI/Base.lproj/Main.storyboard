@@ -61,6 +61,26 @@
                                             <segue destination="yH7-3p-eZ1" kind="show" id="gGG-GP-NpG"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="6aW-xw-BcB" style="IBUITableViewCellStyleDefault" id="BMv-rO-HDB">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BMv-rO-HDB" id="GHc-8D-hmN">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="[weak, self] in UIView.animate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6aW-xw-BcB" userLabel="Self in animations">
+                                                    <rect key="frame" x="16" y="0.0" width="324" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bcM-17-0jv" kind="show" id="EbX-DA-Cs4"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -291,7 +311,6 @@
         <!--Wrapping TextVC-->
         <scene sceneID="hau-Wb-p8R">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3qV-18-TaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="yH7-3p-eZ1" customClass="WrappingTextVC" customModule="CodeSamples" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j4g-ze-lqk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -300,8 +319,24 @@
                         <viewLayoutGuide key="safeArea" id="vAU-9X-EIF"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qV-18-TaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="676" y="177"/>
+        </scene>
+        <!--Self In AnimationsVC-->
+        <scene sceneID="0JR-e6-TX3">
+            <objects>
+                <viewController id="bcM-17-0jv" customClass="SelfInAnimationsVC" customModule="CodeSamples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Tw-Tk-vnP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="7Px-4o-6Uq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z6Y-7Y-CXr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13.6" y="580.65967016491754"/>
         </scene>
     </scenes>
 </document>
